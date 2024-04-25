@@ -2,13 +2,13 @@
     "dev": {
         "app_function": "lambda.lambda_handler",
         "aws_region": "us-east-1",
-        "keep_warm": false,
-        "role_name": "LabRole",
-        "manage_roles": false,
         "project_name": "bigdata2",
         "runtime": "python3.10",
-        "s3_bucket": "zappa-parcial-corte2"
+        "s3_bucket": "zappa-parcial-corte2",
+        "keep_warm": false,
         "apigateway_enabled": false,
+        "manage_roles": false,
+        "role_name": "LabRole",
         "events": [
             {
                 "function": "lambda.lambda_handler",
